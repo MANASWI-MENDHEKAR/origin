@@ -1,13 +1,16 @@
 #include<stdio.h>
-void print(int n){
-    if(n==0) return;
-    print(n-1);
-    printf("%d\n",n);
-}
 int main(){
-    int n;
-    printf("enter n:");
-    scanf("%d\n",&n);
-    print(n);
-    return 0;
-}
+    char arr[50],n,i;
+    printf("enter name:");
+    scanf("%c",&n);
+    for(i=0;i<50;i++){
+        printf("%s",arr[i]);
+    }
+    printf("\n");
+    for(i=50;i>=0;i--){
+        printf("%s",arr[i]);
+    }
+    printf("\n");
+    
+    
+    }
